@@ -1,0 +1,20 @@
+-- Gui
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Bedwars", "Midnight")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+
+--Stuff
+
+Section:NewButton("Jn HH Gaming V7", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-Bedwars-V7/main/JN%20Bedwars%20V7",true))()
+end)
+
+Section:NewButton("Noon Bed", "", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Noon-Bed-Source/main/Noon%20Bed%20Source'),true))()
+end)
+
+Section:NewButton("Bedwars Monkey", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+end)
