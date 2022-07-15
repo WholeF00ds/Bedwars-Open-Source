@@ -7,8 +7,8 @@ local Section = Tab:NewSection("Scripts")
 
 --Stuff
 
-Section:NewButton("Jn HH Gaming V7", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-Bedwars-V7/main/JN%20Bedwars%20V7",true))()
+Section:NewButton("Jn HH Gaming V10", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/JNO10"))()
 end)
 
 Section:NewButton("Noon Bed", "", function()
